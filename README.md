@@ -30,7 +30,7 @@ Para instalar nodemon, typescript e ts-node global
 npm i -g nodemon typescript ts-node
 ```
 
-Instalando pacotes
+Instalando pacotes após entrar na pasta do projeto
 ```
 npm install
 ```
@@ -39,6 +39,20 @@ npm install
 ```
 npm run start-dev
 ```
+
+Rodar o docker 
+```
+docker-compose up -d
+```
+
+Conectar ao bando de dados mysql usando as credenciais que estão no docker-compose.yml
+- Criar banco **tasks**
+
+Crie o arquivo .env, utilizando o .env.example como base:
+```
+cp .env.example .env
+```
+
 ## Documentação da API
 
 ### Endpoints
@@ -58,3 +72,11 @@ Payload
 }
 ```
 Done é opcional ao criar um To-Do
+
+
+### Melhorias futuras
+- Criação de repositories
+- Criação de services
+- Testes
+- Login
+- Autenticação
