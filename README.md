@@ -54,5 +54,7 @@ Payload
 ```json
 {
   "title": "<nome>",
-  "done": "<false/0 true/1>" *opcional
+  "done": "<false/0 true/1>"
 }
+```
+Done é opcional ao criar um To-Do
