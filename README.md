@@ -45,10 +45,10 @@ Rodar o docker
 docker-compose up -d
 ```
 
-Conectar ao bando de dados mysql usando as credenciais que estão no docker-compose.yml
-- Criar banco **tasks**
+Conectar ao banco de dados mysql usando as credenciais que estão no docker-compose.yml
+- Criar tabela **tasks**
 
-Crie o arquivo .env, utilizando o .env.example como base:
+Crie o arquivo .env, utilizando o .env.example como base, colocando credenciais do banco que esta no docker-compose.yml:
 ```
 cp .env.example .env
 ```
