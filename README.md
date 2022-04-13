@@ -30,7 +30,7 @@ Para instalar nodemon, typescript e ts-node global
 npm i -g nodemon typescript ts-node
 ```
 
-Instalando pacotes
+Instalando pacotes após entrar na pasta do projeto
 ```
 npm install
 ```
