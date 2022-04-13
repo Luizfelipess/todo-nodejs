@@ -39,6 +39,20 @@ npm install
 ```
 npm run start-dev
 ```
+
+Rodar o docker 
+```
+docker-compose up -d
+```
+
+Conectar ao bando de dados mysql usando as credenciais que estão no docker-compose.yml
+- Criar banco **tasks**
+
+Crie o arquivo .env, utilizando o .env.example como base:
+```
+cp .env.example .env
+```
+
 ## Documentação da API
 
 ### Endpoints
