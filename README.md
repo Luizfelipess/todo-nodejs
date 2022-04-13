@@ -58,3 +58,11 @@ Payload
 }
 ```
 Done é opcional ao criar um To-Do
+
+
+### Melhorias futuras
+- Criação de repositories
+- Criação de services
+- Testes
+- Login
+- Autenticação
