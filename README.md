@@ -64,11 +64,11 @@ cp .env.example .env
 | PUT    | /todo/edit/{id} | Editar um To-Do|
 | DELETE | /todo/delete/{id} | Deletar um To-Do|
 
-Payload
+Payload exemplo
 ```json
 {
-  "title": "<nome>",
-  "done": "<false/0 true/1>"
+  "title": "Test",
+  "done": 0
 }
 ```
 Done é opcional ao criar um To-Do
